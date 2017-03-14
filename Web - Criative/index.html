@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsivo.css">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/modernizr.custom.45655.js"></script>
     </head>
     <body>
         <header>
@@ -45,14 +45,23 @@
             <div class="container">
               <!-- <div class="col-md-offset-3"> -->
               <ul class="row">
-                <li class="col-md-2 esconder"><a href="#servicos" >SERVIÇOS</a></li>
-                <li class="col-md-2 esconder"><a href="#sobre" >SOBRE</a></li>
-                <li class="col-md-4 col-xs-9"><a href="#" ><img src="img/logonovo.png"  class="logo" alt="Criative Logo" /></a></li>
-                <li class="col-md-2 esconder"><a href="#equipe">EQUIPE</a></li>
-                <li class="col-md-2 esconder"><a href="#contato">CONTATO</a></li>
-                <li><button type="button" class="hamburguer col-xs-3 "  name="button"> <span class="glyphicon glyphicon-menu-hamburger "></span></button></li>
+                <li class="col-md-2 "><a href="#servicos" class="hover">SERVIÇOS</a></li>
+                <li class="col-md-2"><a href="#sobre" class="hover" >SOBRE</a></li>
+                <li class="col-md-4"><a href="#" ><img src="img/logonovo.png"  class="logo" alt="Criative Logo" /></a></li>
+                <li class="col-md-2 "><a href="#equipe" class="hover">EQUIPE</a></li>
+                <li class="col-md-2 "><a href="#contato" class="hover">CONTATO</a></li>
+                <li><button class="hamburguer"> <span class="glyphicon glyphicon-menu-hamburger "></span></button></li>
+                <li><button class="cross"> <span class="glyphicon glyphicon-remove"></span></button></li>
               </ul>
             </div>
+          </div>
+          <div class="drop">
+            <ul class="row">
+              <a href="#servicos" class="hover"><li>SERVIÇOS</li></a>
+              <a href="#sobre" class="hover" ><li>SOBRE</li></a>
+              <a href="#equipe" class="hover"><li>EQUIPE</li></a>
+              <a href="#contato" class="hover"><li>CONTATO</li></a>
+            </ul>
           </div>
         </header>
 
@@ -215,9 +224,10 @@
         </footer>
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-        <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
+        <!-- <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script> -->
+        <script type="text/javascript" src="js/libs/jquery.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
