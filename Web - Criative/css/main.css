@@ -118,18 +118,20 @@ li.col-md-2{
 /*section serviço*/
 .servicos{
   background-color: #261D1D;
-  width: auto;
-  height: 430px;
+  height: auto;
 }
 
 .servico{
+  height: auto;
   padding: 15px;
+  display: block;
 }
+
 .servico-head{
   background-color:#441414;
   width: 33,33%;
   height: 160px;
-  padding: 35px;
+  padding: 20px;
 }
 
 .servico-head img{
@@ -178,12 +180,12 @@ li.col-md-2{
 }
 
 .texto-sobre{
-  /*position: absolute;*/
   background-color:#441414;
   opacity: 0.5;
   width: 80%;
-  height: 500px;
+  height: auto;
   margin: auto;
+  margin-bottom: 100px;
   padding: 50px 100px;
 }
 .texto-sobre p{
@@ -195,7 +197,7 @@ li.col-md-2{
 /*Equipe*/
 
 .equipe{
-  height: 500px;
+  height: auto;
   background-color:#261D1D;
   text-align: center;
 }
@@ -209,7 +211,7 @@ li.col-md-2{
 }
 
 .pessoa-equipe{
-  width: 50%;
+  margin-bottom: 50px;
 }
 
 .pessoa-head{
@@ -230,7 +232,6 @@ li.col-md-2{
 
 /*Seção Contato*/
 .contato{
-  height: 540px;
   background-image: url("../img/web/image4384.png");
   background-attachment: fixed;
   background-position: center;
@@ -257,7 +258,7 @@ li.col-md-2{
 
 .formulario input, .formulario textarea{
   display: block;
-  width: 90%;
+  width: 100%;
   border: 4px solid #441414;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -270,6 +271,7 @@ li.col-md-2{
 .formulario button{
   border: none;
   margin-top: 5px;
+  margin-bottom: 20px;
   width: 140px;
   background-color: #441414;
 }
