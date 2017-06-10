@@ -12,7 +12,7 @@
     <div class="row">
       <div class="servico anime col-md-4 col-sm-4 col-xs-12 anime">
         <div class="servico-head">
-          <img src="img/icones/user.svg" alt="icone usuario">
+          <img src="<?php echo base_url('assets/img/icones/user.svg')?>" alt="icone usuario">
           <h3>Gestão de RH</h3>
         </div>
         <div class="servico-body">
@@ -30,7 +30,7 @@
       </div>
       <div class="servico col-md-4 col-sm-4 col-xs-12 anime">
         <div class="servico-head">
-          <img src="img/icones/calculator.svg" alt="icone usuario">
+          <img src="<?php echo base_url('assets/img/icones/calculator.svg')?>" alt="icone usuario">
           <h3>Contabilidade</h3>
         </div>
         <div class="servico-body">
@@ -48,7 +48,7 @@
       </div>
       <div class="servico col-md-4 col-sm-4 col-xs-12 anime">
         <div class="servico-head">
-          <img src="img/icones/file.svg" alt="icone usuario">
+          <img src="<?php echo base_url('assets/img/icones/file.svg')?>" alt="icone usuario">
           <h3>Folha de Pagamento</h3>
         </div>
         <div class="servico-body">
@@ -98,7 +98,7 @@
     <div class="row">
       <div class="col-md-6 col-sm-6 pessoa-equipe anime">
         <div class="pessoa-head">
-          <img src="img/web/equipe-01.png" alt="imagem de um funcionário">
+          <img src="<?php echo base_url('assets/img/web/equipe-01.png')?>" alt="imagem de um funcionário">
         </div>
         <div class="pessoa-body">
           <h3>Sérgio Caetano</h3>
@@ -108,7 +108,7 @@
 
       <div class="col-md-6 col-sm-6 pessoa-equipe anime">
         <div class="pessoa-head">
-          <img src="img/web/equipe-02.png" alt="imagem de um funcionário">
+          <img src="<?php echo base_url('assets/img/web/equipe-02.png')?>" alt="imagem de um funcionário">
         </div>
         <div class="pessoa-body">
           <h3>Laís Campos</h3>
@@ -142,9 +142,9 @@
 
       <aside class="redes-sociais-contato col-md-6 col-sm-6 anime">
         <ul>
-          <li><a href="http://facebook.com" target="_blank"><img src="img/icones/facebook-logo.svg" alt="icone facebook"></a></li>
-          <li><a href="http://instagram.com" target="_blank"><img src="img/icones/linkedin-logo.svg" alt="icone instagram"></a></li>
-          <li><a href="http://twitter.com" target="_blank"><img src="img/icones/twitter.svg" alt="icone twitter"></a></li>
+          <li><a href="http://facebook.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
+          <li><a href="http://instagram.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
+          <li><a href="http://twitter.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/twitter.svg')?>" alt="icone twitter"></a></li>
         </ul>
 
         <div class="contato-email">

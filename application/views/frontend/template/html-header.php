@@ -6,15 +6,15 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- <link rel="icon" href="favicon-16x16.png"> -->
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="<?php echo base_url('assets/favicon.ico')?>">
 
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Teko" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsivo.css">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/normalize.min.css')?>">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/reset.css')?>">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css')?>">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/responsivo.css')?>">
 
-        <script src="js/libs/modernizr.custom.45655.js"></script>
+        <script src="<?php echo base_url('assets/js/libs/modernizr.custom.45655.js')?>"></script>
     </head>
     <body>

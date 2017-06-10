@@ -5,7 +5,7 @@
 <script src="<?php echo base_url('assets/js/plugins.js')?>"></script>
 
 <!-- Main -->
-<script src="<?php echo base_url('assets/main.js')?>"></script>
+<script src="<?php echo base_url('assets/js/main.js')?>"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
