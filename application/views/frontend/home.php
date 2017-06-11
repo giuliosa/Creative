@@ -34,15 +34,12 @@
           <h3>Contabilidade</h3>
         </div>
         <div class="servico-body">
-          <p>Oferecemos serviços de terceirização
-             de folha de pagamento, para empresas
-             que desejam melhorar a gestão sobre
-             os processos que apoiam o departamento
-             de pessoal e recursos humanos.
-             Proporcionamos a execução das rotinas complexas, incluindo todos os
-             processamentos e cálculos, assegurando
-             que as necessidades da sua empresa sejam
-             atendidas dentro dos prazos estabelecidos.</p>
+          <p>Contabilidade é a ciência que tem por
+             objetivo o estudo das variações quantitativas
+             e qualitativas ocorridas no patrimônio
+             (conjunto de bens, direitos e obrigações)
+             das entidades (qualquer pessoa física ou jurídica
+             que possui um patrimônio).</p>
              <button id="mudaPagina" class="btn-vermelho" name="enviar" type="submit">Veja mais</button>
         </div>
       </div>
@@ -75,18 +72,25 @@
   <h2 class="anime">Sobre</h2>
   <div class="texto-sobre">
     <p class="anime">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque dolor purus. Donec pulvinar leo eget nisl ullamcorper, non posuere urna gravida. Proin porta, arcu quis placerat ultrices, massa massa tristique urna, eget rutrum justo lectus quis risus. Vestibulum eget ultrices velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis mi ante, suscipit a enim ac, vulputate elementum nunc. Vestibulum sit amet augue non tellus congue aliquam ac non arcu. Phasellus ac sem arcu.
+      A CREATIVE Gestão e Tecnologia Ltda oferece serviços de terceirização
+      de folha de pagamento, para empresas que desejam melhorar a gestão sobre
+      os processos de maneira criativa.
     </p><br>
     <p class="anime">
-      Cras id leo vel diam pharetra lacinia. Phasellus lacinia a arcu sit amet vehicula. Vestibulum quis purus feugiat, mattis enim a, pellentesque magna. Quisque venenatis leo quis lectus malesuada, in venenatis dolor tincidunt. Proin purus nisl, venenatis ac nisl in, sollicitudin accumsan eros. Fusce pellentesque nisl eget varius condimentum. Etiam volutpat tortor eu vehicula posuere. Sed iaculis lectus sed arcu viverra sollicitudin.
+      O que pode ser terceirizado?
+      Execução e processamento dos processos operacionais de Recursos Humanos,
+      incluindo a elaboração e processos da folha de pagamento mensal e adiantamentos;
+      admissões, documentação e benefícios legais; administração de férias individuais
+      ou coletivas; emissão de documentos, guias, holerites e encargos sociais; geração
+      das diversas guias de recolhimento: DARF, GPS, GRFC, relatórios e arquivos eletrônicos
+      operacionais e legais, tais como, crédito de salários, pensão alimentícia,
+      SEFIP e CAGED; gerenciamento total das informações e históricos dos funcionários
+      e rescisões contratuais com acompanhamento nos sindicatos ou no Ministério
+      do Trabalho para homologações.
     </p><br>
-    <p class="anime">
-      Etiam varius tellus et aliquet aliquet. Fusce quis sodales felis, et varius nisi. Donec eu enim fringilla, interdum nulla et, mattis ipsum. Donec molestie scelerisque dapibus. Suspendisse potenti. Cras vulputate egestas risus, at efficitur nulla auctor ut. Duis ut tincidunt neque. Duis tempus pretium justo, congue volutpat tortor cursus id.
-    </p>
 
   </div>
-  <!-- <img src="img/web/image4287.png" alt="imagem-sobre"> -->
-
+  
 </section>
 
 <div class="quebra">
