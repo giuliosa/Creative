@@ -4,13 +4,13 @@
       <div class="row">
         <div class="col-md-4 col-sm-4">
           <ul>
-            <li><a href="http://facebook.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
-            <li><a href="http://instagram.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
+            <li><a href="https://facebook.com/creativerh" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
             <li><a href="http://twitter.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/twitter.svg')?>" alt="icone twitter"></a></li>
           </ul>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-6 header-email">
-            (81) 9 9681-9634
+            (81) 9 9655-1348
         </div>
         <div class="col-md-4 col-sm-4 col-xs-6 header-telefone">
             contato@creativerh.com.br
