@@ -90,7 +90,7 @@
     </p><br>
 
   </div>
-  
+
 </section>
 
 <div class="quebra">
@@ -146,16 +146,16 @@
 
       <aside class="redes-sociais-contato col-md-6 col-sm-6 anime">
         <ul>
-          <li><a href="http://facebook.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
-          <li><a href="http://instagram.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
+          <li><a href="https://facebook.com/creativerh" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
+          <li><a href="https://linkedin.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
           <li><a href="http://twitter.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/twitter.svg')?>" alt="icone twitter"></a></li>
         </ul>
 
         <div class="contato-email">
-            (81) 9 9681-9634
+            (81) 9 9655-1348
         </div>
         <div class="contato-telefone">
-            contato@creative.com.br
+            contato@creativerh.com.br
         </div>
       </aside>
     </div>
