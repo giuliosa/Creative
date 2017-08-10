@@ -146,7 +146,7 @@
 
       <aside class="redes-sociais-contato col-md-6 col-sm-6 anime">
         <ul>
-          <li><a href="https://facebook.com/creativerh" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
+          <li><a href="https://www.facebook.com/creativegestaorh/" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
           <li><a href="https://linkedin.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
           <li><a href="http://twitter.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/twitter.svg')?>" alt="icone twitter"></a></li>
         </ul>

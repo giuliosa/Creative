@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-4 col-sm-4">
           <ul>
-            <li><a href="https://facebook.com/creativerh" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
+            <li><a href="https://www.facebook.com/creativegestaorh/" target="_blank"><img src="<?php echo base_url('assets/img/icones/facebook-logo.svg')?>" alt="icone facebook"></a></li>
             <li><a href="https://linkedin.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/linkedin-logo.svg')?>" alt="icone instagram"></a></li>
             <li><a href="http://twitter.com" target="_blank"><img src="<?php echo base_url('assets/img/icones/twitter.svg')?>" alt="icone twitter"></a></li>
           </ul>
