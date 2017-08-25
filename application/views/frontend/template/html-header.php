@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Criative - Gestão e Tecnologia</title>
+        <title>Creative - Gestão e Tecnologia</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- <link rel="icon" href="favicon-16x16.png"> -->

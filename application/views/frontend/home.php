@@ -1,5 +1,5 @@
 <section class="imagem-intro">
-  <h1 class="titulo-imagem">Uma empresa de gestão moderna</h1>
+  <!-- <h1 class="titulo-imagem">Uma empresa de gestão moderna</h1>-->
   <!-- <img src="img/web/image4418.png" class="img-responsive" alt="introducao imagem de prédio "> -->
 </section>
 
