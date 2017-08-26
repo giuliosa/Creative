@@ -42,6 +42,6 @@ class Home extends CI_Controller {
 			echo $e;
 		}
 
-		
+		redirect(base_url('home'));
 	}
 }
