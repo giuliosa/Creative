@@ -56,7 +56,7 @@ header{
 
 .header-contato{
   height: 60px;
-  background-color: #261D1D;
+  background-color: #e76a1d;
   padding: 10px 0;
 }
 
@@ -76,7 +76,7 @@ header{
 }
 
 .header-contato ul li a:hover {
-  border: 3px solid #441414;
+  border: 3px solid #ff8a42;
 }
 
 .header-contato ul li a img{
@@ -98,7 +98,7 @@ header{
 .header-menu{
   width: 100%;
   height: 100px;
-  background-color: #441414;
+  background-color: #ff8a42;
   z-index: 10;
   padding-top: 10px;
 }
@@ -162,7 +162,7 @@ li.col-md-2{
 
 /*section serviço*/
 .servicos{
-  background-color: #261D1D;
+  background-color: #e76a1d;
   height: auto;
 }
 
@@ -173,7 +173,7 @@ li.col-md-2{
 }
 
 .servico-head{
-  background-color:#441414;
+  background-color:#ff8a42;
   width: 33,33%;
   height: 160px;
   padding: 20px;
@@ -214,14 +214,14 @@ li.col-md-2{
   margin-bottom: 10px;
   width: 140px;
   height: 42px;
-  background-color: #441414;
+  background-color: #ff8a42;
   transition: border 0.1s, color 0.1s, background-color 0.1s;
   transition-timing-function: linear;
 }
 
 .servico-body .btn-vermelho:hover{
-  border: 4px solid #441414;
-  color: #441414;
+  border: 4px solid #ff8a42;
+  color: #ff8a42;
   background-color: white;
 }
 
@@ -236,7 +236,7 @@ li.col-md-2{
 }
 
 .texto-sobre{
-  background-color:#441414;
+  background-color:#ff8a42;
   opacity: 0.5;
   width: 80%;
   height: auto;
@@ -254,7 +254,7 @@ li.col-md-2{
 
 .equipe{
   height: auto;
-  background-color:#261D1D;
+  background-color:#e76a1d;
   text-align: center;
 }
 
@@ -272,7 +272,7 @@ li.col-md-2{
 }
 
 .pessoa-body{
-  background-color: #441414;
+  background-color: #ff8a42;
   padding: 10px;
   width: 248px;
   margin: 0 auto;
@@ -303,7 +303,7 @@ li.col-md-2{
 .formulario input, .formulario textarea{
   display: block;
   width: 100%;
-  border: 4px solid #441414;
+  border: 4px solid #ff8a42;
   padding: 5px 10px;
   margin-bottom: 5px;
   outline: none;
@@ -322,14 +322,14 @@ li.col-md-2{
   margin-bottom: 20px;
   width: 140px;
   height: 42px;
-  background-color: #441414;
+  background-color: #ff8a42;
   transition: border 0.1s, color 0.1s, background-color 0.1s;
   transition-timing-function: linear;
 }
 
 .formulario .btn-vermelho:hover{
-  border: 4px solid #441414;
-  color: #441414;
+  border: 4px solid #ff8a42;
+  color: #ff8a42;
   background-color: white;
 }
 
@@ -355,7 +355,7 @@ li.col-md-2{
 }
 
 .redes-sociais-contato ul li a:hover {
-  border: 4px solid #441414;
+  border: 4px solid #ff8a42;
 }
 
 .redes-sociais-contato ul li a img{
@@ -374,7 +374,7 @@ li.col-md-2{
 
 /*Footer*/
 footer{
-  background-color: #441414;
+  background-color: #ff8a42;
 }
 
 footer .quebra h5{
