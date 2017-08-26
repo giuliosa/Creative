@@ -129,15 +129,15 @@
   <div class="container">
     <h2 class="anime">Contato</h2>
     <div class="row">
-      <form class="formulario col-md-6 col-sm-6 anime" action="index.html" method="post">
+      <form class="formulario col-md-6 col-sm-6 anime" action="home/enviarEmail" method="post">
         <label for="nome">Nome</label><br>
         <input type="text" name="nome" id="nome" value=""><br>
 
         <label for="nome">E-mail</label><br>
-        <input type="email" name="nome" id="nome" value=""><br>
+        <input type="email" name="email" id="nome" value=""><br>
 
         <label for="nome">Mensagem</label><br>
-        <textarea name="nome" id="nome" value=""></textarea>
+        <textarea name="mensagem" id="nome" value=""></textarea>
 
         <button id="enviar" class="btn-vermelho" name="enviar" type="submit">Enviar</button>
 
