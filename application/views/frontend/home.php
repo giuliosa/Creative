@@ -31,15 +31,14 @@
       <div class="servico col-md-4 col-sm-4 col-xs-12 anime">
         <div class="servico-head">
           <img src="<?php echo base_url('assets/img/icones/calculator.svg')?>" alt="icone usuario">
-          <h3>Contabilidade</h3>
+          <h3>Gestão de Condomínios</h3>
         </div>
         <div class="servico-body">
-          <p>Contabilidade é a ciência que tem por
-             objetivo o estudo das variações quantitativas
-             e qualitativas ocorridas no patrimônio
-             (conjunto de bens, direitos e obrigações)
-             das entidades (qualquer pessoa física ou jurídica
-             que possui um patrimônio).</p>
+          <p>Temos uma gestão de condomínio simples e eficiente que oferece a
+             tranquilidade necessária para você, proporcionando segurança e
+              agilidade no seu trabalho e promovendo a redução de seus custos.
+              Não perca essa oportunidade e comece hoje mesmo a usufruir desses
+               benefícios</p>
              <button id="mudaPagina" class="btn-vermelho" name="enviar" type="submit">Veja mais</button>
         </div>
       </div>
