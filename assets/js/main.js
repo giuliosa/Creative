@@ -4,12 +4,12 @@ $(function(){
  var nav = $('.header-menu');
  var drop = $('.drop');
  $(window).scroll(function () {
-   if ($(this).scrollTop() > $('.header-menu').innerHeight()) {
+   if ($(this).scrollTop() > $('.header-contato').innerHeight()) {
      nav.addClass("menu-fixo");
      drop.addClass("drop-fixo");
    } else {
      nav.removeClass("menu-fixo");
-     drop.removeClass("drop-fixo");  
+     drop.removeClass("drop-fixo");
    }
  });
 });

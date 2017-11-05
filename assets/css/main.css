@@ -1,15 +1,21 @@
 /*
 Cores
 #181818
-#ff8a42
-#e76a1d
+#000000
+Laranja para o gradiente #ff8a42 e #e76a1d
 #f1f1f1
+
 */
 /*Estilos gerais*/
 body {
   font-family: 'Teko', helvetica Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  color: #f1f1f1;
+  font-size: 20px;
+  color: #181818;
+  background: #e76a1d; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #e76a1d , #ff8a42); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #e76a1d, #ff8a42); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #e76a1d, #ff8a42); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #e76a1d , #ff8a42); /* Standard syntax */
 }
 
 p{
@@ -30,11 +36,6 @@ h2{
   display: block;
 }
 
-.quebra{
-  height: 80px;
-  width: 100%;
-  background-color: #181818;
-}
 
 .menu-fixo{
 	position: fixed;
@@ -56,8 +57,33 @@ header{
 
 .header-contato{
   height: 60px;
-  background-color: #e76a1d;
+  background: #e76a1d; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #e76a1d , #ff8a42); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #e76a1d, #ff8a42); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #e76a1d, #ff8a42); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #e76a1d , #ff8a42); /* Standard syntax */
   padding: 10px 0;
+}
+
+.linha{
+  background-color: #181818;
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.header-contato .container{
+  display: flex;
+}
+
+.col-2{
+  width: 50%;
+}
+
+.contato-header{
+  text-align: right;
+  margin-top: 8px;
 }
 
 .header-contato ul li{
@@ -65,73 +91,85 @@ header{
   margin-right: 10px;
 }
 
-.header-contato ul li a {
-  border: 3px solid #F1F1F1;
+.facebook-teste{
+  height: 18px;
+  width: 18px;
+  display: block;
+  fill:#f1f1f1;
+  fill-opacity:1;
+}
+
+.facebook-tester{
+  fill: #f1f1f1;
+}
+
+.redes-sociais-header ul li a {
+  border: 2px solid #181818;
   height: 40px;
   width: 40px;
   display: block;
-  padding: 8px;
+  padding: 9px;
   transition: all .5s ease;
   /*transition-timing-function: linear;*/
 }
 
-.header-contato ul li a:hover {
-  border: 3px solid #ff8a42;
+.redes-sociais-header a:hover {
+  /*border: 2px solid #ff8a42;*/
+  background-color: #181818;
+
 }
 
-.header-contato ul li a img{
+.redes-sociais-header img{
   height: 18px;
   width: 18px;
   display: block;
 }
 
-.header-email{
-  text-align: center;
-  padding-top: 5px;
-}
-
-.header-telefone{
-  text-align: right;
-  padding-top: 5px;
-}
 
 .header-menu{
   width: 100%;
-  height: 100px;
-  background-color: #ff8a42;
+  height: 88px;
+  background: #e76a1d; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #e76a1d , #ff8a42); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #e76a1d, #ff8a42); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #e76a1d, #ff8a42); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #e76a1d , #ff8a42); /* Standard syntax */
   z-index: 10;
   padding-top: 10px;
 }
 
 .logo{
-  width: 200px;
-  height: 60px;
+  width: 160px;
+  height: 50px;
+  margin:0 30px;
 }
 
-li.col-md-4{
-  padding-top: 10px;
-}
-li.col-md-2{
-  padding-top: 15px;
+.header-menu ul{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .header-menu ul li {
   display: inline-block;
+  margin: 0 15px;
 }
 
 .header-menu ul li a{
   text-decoration: none;
   display: block;
-  color: #FFF;
-  font-size: 36px;
+  color: #181818;
+  font-size: 24px;
   text-align: center;
+  border: 2px solid rgba(76, 175, 80, 0);
   transition: all .1s ease;
   transition-timing-function: linear;
+  padding: 2px 8px 0 8px;
 }
 
 .header-menu ul .hover:hover{
-  border: 4px solid #f1f1f1;
-  padding: 0;
+  border: 2px solid #181818;
+
 }
 
 .header-menu ul li:nth-child(6){
@@ -143,7 +181,7 @@ li.col-md-2{
 .imagem-intro{
   position: relative;
   width: 100%;
-  height: 530px;
+  height: 650px;
   background-image: url("../img/web/banner.png");
   /*background-attachment: fixed;*/
   background-position: center;
@@ -153,18 +191,23 @@ li.col-md-2{
 
 /*section serviço*/
 .servicos{
-  background-color: #e76a1d;
-  height: auto;
+  background-color: #ff8a42;
+  height: 780px;
+}
+
+.linha-servico{
+  display: flex;
 }
 
 .servico{
   height: auto;
-  padding: 15px;
+  margin-right: 15px;
   display: block;
+  margin-bottom: 40px;
 }
 
 .servico-head{
-  background-color:#ff8a42;
+  background-color:#e76a1d;
   width: 33,33%;
   height: 160px;
   padding: 20px;
@@ -189,6 +232,10 @@ li.col-md-2{
   height: 430px ;
   padding: 30px;
   float: left;
+
+  -webkit-box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.55);
+  box-shadow: 0px 6px 3px -1px rgba(0,0,0,0.55);
 }
 
 .servico-body p{
@@ -205,15 +252,16 @@ li.col-md-2{
   margin-bottom: 10px;
   width: 140px;
   height: 42px;
-  background-color: #ff8a42;
+  border: 4px solid #ff8a42;
+  background-color: #f1f1f1;
   transition: border 0.1s, color 0.1s, background-color 0.1s;
   transition-timing-function: linear;
 }
 
 .servico-body .btn-vermelho:hover{
   border: 4px solid #ff8a42;
-  color: #ff8a42;
-  background-color: white;
+  color: #f1f1f1;
+  background-color: #ff8a42;
 }
 
 /*Sobre*/
