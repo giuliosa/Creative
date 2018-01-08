@@ -95,13 +95,13 @@
 <div class="quebra">
 </div>
 
-<section class="equipe" id="equipe">
+<!-- <section class="equipe" id="equipe">
   <div class="container">
     <h2 class="anime">Equipe</h2>
     <div class="row">
       <div class="col-md-6 col-sm-6 pessoa-equipe anime">
         <div class="pessoa-head">
-          <img src="<?php echo base_url('assets/img/web/equipe-01.png')?>" alt="imagem de um funcionário">
+          <img src="<?php //echo base_url('assets/img/web/equipe-01.png')?>" alt="imagem de um funcionário">
         </div>
         <div class="pessoa-body">
           <h3>Sérgio Caetano</h3>
@@ -111,7 +111,7 @@
 
       <div class="col-md-6 col-sm-6 pessoa-equipe anime">
         <div class="pessoa-head">
-          <img src="<?php echo base_url('assets/img/web/equipe-02.png')?>" alt="imagem de um funcionário">
+          <img src="<?php //echo base_url('assets/img/web/equipe-02.png')?>" alt="imagem de um funcionário">
         </div>
         <div class="pessoa-body">
           <h3>Laís Campos</h3>
@@ -120,10 +120,10 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<div class="quebra">
-</div>
+<!-- <div class="quebra">
+</div> -->
 
 <section class="contato" id="contato">
   <div class="container">
